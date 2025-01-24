@@ -1,0 +1,18 @@
+.container {
+    height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la página */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaciado entre los elementos del formulario */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  

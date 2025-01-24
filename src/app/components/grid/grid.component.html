@@ -1,0 +1,11 @@
+<div class="grid-container">
+  <h2>{{ gridType | titlecase }} Grid</h2>
+  <div *ngIf="gridType === 'devices'">
+    <!-- Contenido o configuración específica para Devices -->
+    <p>This is the Devices Grid implementation.</p>
+  </div>
+  <div *ngIf="gridType === 'service-point'">
+    <!-- Contenido o configuración específica para Service Point -->
+    <p>This is the Service Point Grid implementation.</p>
+  </div>
+</div>
